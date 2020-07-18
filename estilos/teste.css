@@ -1,0 +1,187 @@
+#pagina-cadastro {
+  background: white;
+
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+}
+#pagina-cadastro header {
+  margin: 22px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  height: 51px;
+
+  align-items: center;
+}
+#pagina-cadastro header h1 {
+  margin-left: 8px;
+}
+
+#pagina-cadastro header section {
+  display: flex;
+}
+#pagina-cadastro header a {
+  display: flex;
+  color: black;
+  font-weight: 700;
+  align-items: center;
+}
+
+#pagina-cadastro header a span {
+  margin-right: 8px;
+  display: flex;
+  background-image: url("../assets/add.png");
+  width: 24px;
+  height: 24px;
+}
+
+#formulario-ciclo {
+  width: 50%;
+  margin-left: 73px;
+  height: 100vh;
+
+  background: white;
+}
+
+#relatorio-ciclo {
+  width: 40%;
+  margin-left: 34px;
+
+  background: #ecf0f1;
+}
+
+#formulario-ciclo .formulario h1 {
+  font-size: 64px;
+  margin-left: 90px;
+}
+
+form {
+  margin: 80px auto;
+  background-color: white;
+  border-radius: 8px;
+  max-width: 730px;
+}
+
+form h1 {
+  font-size: 36px;
+}
+
+form fieldset {
+  border: 0;
+}
+
+form legend {
+  margin-bottom: 15px;
+  align-items: center;
+
+  display: flex;
+
+  width: 100%;
+}
+
+form legend h2 {
+  font-size: 24px;
+}
+form legend spam {
+  font-size: 14px;
+
+  color: var (--title-color);
+}
+
+form .campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  flex: 1;
+}
+form .grupo-campo {
+  display: flex;
+}
+
+form input,
+form select {
+  background-color: #f0f0f5;
+  border: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  /*outline: none;*/
+  border-radius: 8px;
+}
+form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+form label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+form .grupo-campo .campo + .campo {
+  margin-left: 24px;
+}
+
+form {
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 8px;
+  max-width: 730px;
+}
+
+fieldset {
+  border: 0;
+}
+fieldset .categoria {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+fieldset .categoria a {
+  font-size: 25px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.items-grid li {
+  background-color: #f5f5f5;
+  list-style: none;
+  border: 2px solid #f5f5f5;
+  border-radius: 8px;
+  width: 118px;
+  height: 114px;
+  padding: 32px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.items-grid span {
+  margin-top: 12px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: var(--title-color);
+}
+.items-grid li.selected {
+  background: #e1faec;
+  border: 2px solid #34cb79;
+}
+.items-grid li img,
+.items-grid li span {
+  pointer-events: none;
+}

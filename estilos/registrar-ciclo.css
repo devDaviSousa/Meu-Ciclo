@@ -1,0 +1,158 @@
+#registrar-ciclo {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#registrar-ciclo header {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#registrar-ciclo header a {
+  color: var(--title-color);
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+#registrar-ciclo header a span {
+  margin-right: 16px;
+  display: flex;
+  background-image: url("../assets/arrow-left.svg");
+  width: 24px;
+  height: 24px;
+}
+#registrar-ciclo header section {
+  display: flex;
+}
+#registrar-ciclo header section h1 {
+  margin-left: 8px;
+}
+#registrar-ciclo .titulo h1 {
+  text-align: center;
+}
+
+#conteudo {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 30px auto 0 auto;
+}
+
+#conteudo label {
+  font-size: 16px;
+  font-weight: bold;
+}
+#conteudo h3 {
+  font-size: 22px;
+}
+#conteudo h2 {
+  font-size: 18px;
+}
+#conteudo fieldset {
+  padding-left: 10px;
+}
+
+#conteudo .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+#conteudo .formulario form {
+  width: 90%;
+}
+#conteudo .data {
+  margin: 15px 0 15px 0;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#conteudo .data input {
+  margin-top: 16px;
+}
+
+#conteudo .categoria {
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+#conteudo .botao-categoria {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 10px;
+}
+.botao-add {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  color: black;
+  background-color: burlywood;
+  justify-content: center;
+}
+
+#conteudo .botao-add a {
+  color: black;
+  font-size: 18px;
+}
+
+#conteudo .categoria button {
+  padding: 5px;
+  width: 75px;
+  height: 75px;
+}
+#conteudo .quantidade-itens {
+  display: flex;
+  flex-direction: column;
+}
+#conteudo .quantidade-itens legend {
+  margin-top: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#conteudo .quantidade-itens legend a {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+#conteudo .campo {
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#conteudo .campo button {
+  background-image: url(/assets/log-in.svg);
+  width: 25px;
+  height: 25px;
+  margin-top: 17px;
+}
+#conteudo .campo input {
+  margin-top: 3px;
+  width: 36px;
+  height: 26px;
+}
+
+#conteudo .sacola {
+  width: 50%;
+  border: saddlebrown 1px solid;
+}
+
+#relatorio-ciclo {
+  background-color: #c4c4c4;
+}

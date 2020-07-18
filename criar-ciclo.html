@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/main.css">
+    <link rel="stylesheet" href="/estilos/teste.css">
+    <title>Document</title>
+
+  </head>
+  <body>
+    <div id="pagina-cadastro">
+
+      <div id="formulario-ciclo">
+        <header>
+
+          <section >
+            <img src="/assets/refresh.png" alt="logo">
+            <h1>Meu ciclo</h1>
+          </section>
+          <a href="#">Voltar ao inicio</a>
+        </header>
+
+        <div class="formulario">
+
+          <h1>Criar novo ciclo</h1>
+
+          <form action="">
+
+            <fieldset>
+
+              <legend>
+                <h2>Informações do ciclo</h2>
+              </legend>
+
+              <div class="grupo-campo">
+
+                <div class="campo">
+                  <label for="data">Data</label>
+                  <input type="date" name="data" required="required"/>
+
+                </div>
+
+                <div class="campo">
+                  <label for="turno">Turno</label>
+
+                  <select name="turno" required="required">
+                    <option value="1">Manhã</option>
+                    <option value="2">Tarde</option>
+
+                  </div>
+
+                </div>
+
+              </select>
+
+            </fieldset>
+
+            <fieldset>
+
+              <legend>
+                <h2>Categorias</h2>
+
+              </legend>
+
+              <div class="categoria">
+                <div class="items-grid">
+
+                  <li data-id="1">
+                    <img src="/assets/lampadas.svg" alt="lampadas">
+                    <span>Lâmpadas</span>
+                  </li>
+
+                  <li data-id="2">
+                    <img src="/assets/baterias.svg" alt="Pilhas e bateria">
+                    <span>Pilhas e bateria</span>
+                  </li>
+
+                </div>
+                <a href="#">+</a>
+
+              </div>
+
+            </fieldset>
+
+            <fieldset>
+              <legend>
+                <h2>Itens</h2>
+              </legend>
+            </fieldset>
+
+          </form>
+          <section>
+            <h2>Todas as bandeijas</h2>
+            <a href="#">+</a>
+            <input type="text">
+            <span>
+              <a href="#">Pesquisar</a>
+            </span>
+          </section>
+          <ul>
+            <li></li>
+          </ul>
+
+        </div>
+
+      </div>
+      <div id="relatorio-ciclo">a</div>
+
+    </div>
+  </body>
+</html>
